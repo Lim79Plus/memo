@@ -1,0 +1,9 @@
+//show terminal : ctrl + @
+//select shell type
+shift+ctrl+p
+input shell
+select prefered shell type
+
+//set git bash as a terminal
+edit setting.json, add following line.
+"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
