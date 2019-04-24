@@ -17,3 +17,13 @@ ADD node_modules ./node_modules
 EXPOSE 3000
 CMD ["node", "/src/app.js"]
 ```
+
+### docker cmd
+##### copy from container to local
+```
+// check container id
+docker ps -a
+
+// copy from container to local directory
+docker cp <container ID>:/etc/my.cnf my.cnf
+```
